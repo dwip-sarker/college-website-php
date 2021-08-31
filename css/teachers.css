@@ -1,0 +1,151 @@
+/* GOOGLE FONTS______________ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap');
+/* font-family: 'Montserrat',sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins',sans-serif; */
+
+/* color links */
+/* https: //www.designwizard.com/blog/design-trends/colour-combination */
+
+:root {
+    --car-bg-1: #fff3f1;
+    --car-bg-2: #ED2B33FF;
+    --car-bg-3: #FEE715FF;
+    --car-bg-4: #FC766AFF;
+    --car-bg-5: #F95700FF;
+    --title-color: #4a4a4e;
+    --text-color: #4a5568;
+    --text-color-2: #4a5568;
+    --bg-1: #edf2f7;
+
+}
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+/* ----------------------------------
+        SECTION THREE STYLEING
+-------------------------------- */
+
+#about-secion-3 {
+    margin-top: 100px;
+}
+
+#about-secion-3 .img-area {
+    display: flex;
+    justify-content: center;
+}
+
+.principal_img {
+    max-width: 450px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.principal-msg-title {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: var(--primary-highlight-color);
+}
+
+.principal-msg {
+    color: var(--primary-text-color);
+}
+
+
+
+
+/* ----------------------------------
+        SECTION FOUR STYLEING
+-------------------------------- */
+
+#about-secion-4 {
+    margin-top: 100px;
+}
+
+#about-secion-4 .col-lg-4 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.section-heading {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Vandor Cards */
+.card {
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1),
+        0 4px 6px -2px rgba(0, 0, 0, .05);
+    margin-bottom: 25px;
+}
+
+.card .img-area {
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .img-area img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .content-area {
+    padding: 15px;
+}
+
+.card .content-area h3 {
+    color: var(--title-color);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.card .content-area p {
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.card .content-area .tags-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .content-area .tags-area .tag {
+    background: var(--bg-1);
+    padding: 7px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 5px 6px;
+    color: var(--text-color-2);
+    font-weight: 800;
+
+}
+
+@media (max-width: 1280px) {
+    .principal-msg-title {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .principal-msg {
+        text-align: justify;
+    }
+
+    .principal_img {
+        margin: 0;
+    }
+
+    .carousel {
+        display: none;
+    }
+}

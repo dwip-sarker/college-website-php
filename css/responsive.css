@@ -1,0 +1,62 @@
+@media (max-width:767px) {
+
+  #section-3 .content_area h2 {
+    text-align: center;
+  }
+
+  #section-3 .content_area p {
+    text-align: justify;
+  }
+
+  .video_area {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  #section-4 {
+    height: 150px;
+    margin-top: 50px
+  }
+
+  .apply-content-area {
+    text-align: center;
+  }
+
+  .login-box {
+    float: clear;
+    margin-bottom: 10px;
+    margin: 0 auto;
+  }
+
+  .apply-form-area {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  #section-5 {
+    margin-top: 600px;
+  }
+
+  #section-4 .apply-content-area {
+    padding-top: 30px;
+  }
+
+  .post-section .button_area {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .footer-p {
+    margin-bottom: 40px;
+  }
+
+  .events_area_header {
+    margin-bottom: 10px;
+  }
+
+  .support_header {
+    margin-bottom: 10px;
+  }
+}

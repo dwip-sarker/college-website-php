@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.content-area {
+    margin-top: 5vw;
+}
+
+.content-area img {
+    width: 100%;
+    height: auto;
+}
+
+.content-area h1 {
+    margin-top: 3vw;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--primary-highlight-color);
+    margin-bottom: 20px;
+}
+
+.content-area p {
+
+    text-align: justify;
+    color: var(--primary-text-color);
+}
